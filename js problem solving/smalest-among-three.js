@@ -8,5 +8,5 @@ function findSmalest(num1, num2, num3){
     }
 }
 
-const smaller = findSmalest(155, 500, 80);
+const smaller = findSmalest(5, 500, 80);
 console.log(smaller);

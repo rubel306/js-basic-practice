@@ -31,14 +31,26 @@ var sum = 0;
 // }
 // console.log(sum);
 
-//summation of even number 
-var i = 0;
-var sum = 0;
+// //summation of even number 
+// var i = 0;
+// var sum = 0;
 
-while(i <= 100){
-    if(i % 2 == 0){
-        sum +=i; 
-    }
+// while(i <= 100){
+//     if(i % 2 == 0){
+//         sum +=i; 
+//     }
+//     i++;
+// }
+// console.log(sum);
+
+//do while loop 
+
+var i = 0;
+var sum = 0; 
+do{
+    console.log(i);
+    sum +=i;
     i++;
 }
+while(i <= 15)
 console.log(sum);
